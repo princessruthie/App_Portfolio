@@ -11,34 +11,41 @@
     tools:context="com.ruthiefloats.ruthiefloatsappportfolio.MainActivity">
 
     <TextView
-        android:layout_marginBottom="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="@string/my_apps"
         android:textSize="@dimen/app_text_size"/>
 
     <Button
+        android:onClick="onPickApp"
+        android:id="@+id/popMovies"
         style="@style/ButtonTheme"
         android:text="@string/popular_movies"/>
 
     <Button
+        android:id="@+id/stockHawk"
         style="@style/ButtonTheme"
         android:text="@string/stock_hawk"/>
 
     <Button
+        android:id="@+id/buildBigger"
         style="@style/ButtonTheme"
         android:text="@string/build_it_bigger"/>
 
     <Button
+        android:id="@+id/makeMaterial"
         style="@style/ButtonTheme"
         android:text="@string/make_your_app_material"/>
 
     <Button
+        android:id="@+id/goUbiquitous"
         style="@style/ButtonTheme"
         android:text="@string/go_ubiquitous"/>
 
     <Button
+        android:id="@+id/capstone"
         style="@style/ButtonTheme"
         android:text="@string/capstone"/>
 </LinearLayout>
